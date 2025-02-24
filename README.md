@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Hudson-Liu/Personal-Website/blob/main/imgs/readme_logo.png" width="40%">
+  <img src="https://github.com/Hudson-Liu/Personal-Website/blob/main/docs/readme_logo.png" width="40%">
   <br>
   Static HTML Personal Website
   <br>
