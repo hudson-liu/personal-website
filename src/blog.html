@@ -5,223 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>theme 38</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
+    <style>
+      body {
+        background-color: #2e3440;
+        margin-bottom: 2%;
+        color: #eceff4;
+        font-family: 'Fira Code', monospace;
+      }
 
-body{
-    background-color: #2e3440;
-    margin-bottom: 2%;
-    color:  #eceff4;
-    font-family: 'Fira Code', monospace;
-}
+      #all {
+        width: 60%;
+        margin: 0 auto;
+      }
 
-#all{
-    width: 60%;
-    margin: 0 auto;
-}
+      /* Removed header styles */
+      
+      /* Navbar styling */
+      #navbox {
+        margin: 20px 0;
+        width: 100%;
+        background-image: linear-gradient(to right, #4c566a, #434c5e, #4c566a);
+      }
 
-#header{
-    width: 99.8%;
-    height: 150px;
-    border-top: 1px solid #81a1c1;
-    border-left: 1px solid #81a1c1;
-    border-right: 1px solid #81a1c1;
-    border-bottom: 0px;
-    border-radius: 35px 35px 0px 0px;
-    background-color: #d2dfcd;
-    background-image: url('https://hudson.is-a.dev/imgs/desert_dunes_nord.jpg');
-    background-position: center center;
-    background-repeat: repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+      #navbox ul {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #81a1c1;
+      }
 
-h2 {
-    color: #88c0d0
+      #navbox li {
+        list-style-type: none;
+        display: inline;
+        font-size: 19px;
+        margin: 10px;
+      }
 
-}
+      a {
+        color: #81a1c1;
+        text-decoration: none;
+      }
 
-#title{
-    margin: 0;
-    text-align: center;
-    color: #eceff4;
-    text-shadow: 0px 0px 1px #D8DEE9;
-}
+      a:visited {
+        color: #81a1c1;
+      }
 
-#navbox{
-    margin: 0px 0px 20px 0px;
-    width: 100%;
-    background-image: linear-gradient(to right, #4c566a,#434c5e,#4c566a);
-}
+      a:hover {
+        font-weight: bold;
+      }
 
-#navbox ul{
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #81a1c1;
-}
+      a:active {
+        font-weight: normal;
+      }
 
-#navbox li{
-    list-style-type: none;
-    display: inline;
-    font-size: 19px;
-    margin: 10px;
-}
+      .main {
+        width: 100%;
+      }
 
-.main{
-    width: 100%;
-}
+      .post {
+        width: 100%;
+      }
 
-.post{
-    width: 100%;
-}
+      .text {
+        width: 84%;
+        padding: 25px;
+        border: 1px solid #81a1c1;
+        margin-bottom: 20px;
+        background-color: #434c5e;
+      }
 
-.text{
-    width: 84%;
-    padding: 25px;
-    border: 1px solid #81a1c1;
-    margin-bottom: 20px;
-    background-color: #434c5e;
-}
+      .textborder {
+        background-color: #4c566a;
+        border: 1px dashed #eceff4;
+        padding: 20px;
+        font-size: 15px;
+      }
 
-.textborder{
-    background-color: #4c566a;
-    border: 1px dashed #eceff4;
-    padding: 20px;
-    font-size: 15px;
-}
+      .subheaders {
+        margin: 0;
+        font-weight: normal;
+        font-size: 20px;
+      }
 
-.subheaders{
-    margin: 0;
-    font-weight: normal;
-    font-size: 20px;
-}
+      .date {
+        margin: 0;
+        font-size: 15px;
+        color: #8fbcbb;
+      }
 
-.date{
-    margin: 0;
-    font-size: 15px;
-    color: #8fbcbb
-}
+      .icon {
+        float: right;
+        margin-top: 13px;
+        margin-left: 10px;
+        width: 125px;
+        border: 1px solid #81a1c1;
+      }
 
-.icon{
-    float: right;
-    margin-top: 13px;
-    margin-left: 10px;
-    width: 125px;
-    border: 1px solid #81a1c1;
-}
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
 
-a{
-    color: #81a1c1;
-    text-decoration: none;
-}
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
 
-a:visited{
-    color: #81a1c1;
-    text-decoration: none;
-}
+      ::-webkit-scrollbar-thumb {
+        background-color: #4c566a;
+      }
 
-a:hover{
-    font-weight: bold;
-}
+      #credit {
+        font-size: 11px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
 
-a:active{
-    font-weight: normal;
-}
+  <body>
+    <div id="all">
+      <!-- Top section now only contains the navbar -->
+      <div id="navbox">
+        <ul>
+          <li><a href="https://hudson.is-a.dev/">home</a></li>
+          <li><a href="https://hudson.is-a.dev/src/about.html">about</a></li>
+          <li><a href="https://github.com/Hudson-Liu/Dotfiles">dotfiles</a></li>
+          <li><a href="https://hudson.is-a.dev/src/about.html">wiki</a></li>
+        </ul>
+      </div>
 
-#credit a{
-    color: #fff;
-}
+      <!-- Blog content remains unchanged -->
+      <div id="main">
+        <div class="post">
+          <!-- ENTRY START -->
+          <!-- ICON -->
+          <img class="icon" src="https://hudson.is-a.dev/imgs/arch_nord.png">
 
-::-webkit-scrollbar{
-    width: 6px; 
-}
-    
-::-webkit-scrollbar-track{
-    background-color: transparent;
-}
+          <div class="text">
+            <div class="textborder">
+              <!-- ENTRY HEADER -->
+              <h2 class="subheaders">Installing Arch from Scratch</h2>
+              <p class="date">5/28/2022</p>
+              <!-- ENTRY TEXT -->
+              <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lorem enim, vel pretium urna vehicula eu. Curabitur pharetra tellus id nunc rutrum condimentum. Donec non erat eget purus consectetur semper quis ut turpis. Curabitur nulla justo, gravida vehicula finibus in, ornare et nunc. Praesent eleifend neque nunc, fringilla fringilla tellus molestie vel. Curabitur arcu massa, pulvinar ut hendrerit eu, tincidunt ac lacus. Sed ut semper magna. Suspendisse facilisis leo sit amet erat pulvinar, vitae bibendum augue tempus. Donec aliquet maximus libero, vel fermentum quam maximus in. Quisque mi leo, bibendum eu libero sed, pharetra auctor sem. Donec tempus justo venenatis dui semper finibus. Donec vestibulum felis non tortor facilisis, at fringilla dolor scelerisque. Quisque eros eros, rutrum et tempus at, condimentum ac nulla.</p>
 
-::-webkit-scrollbar-thumb{
-    background-color: #4c566a;
-}
+              <p>Nullam ut dictum urna, id accumsan elit. Maecenas vitae vestibulum elit. Nam dui massa, convallis sit amet ligula vel, convallis feugiat felis. Mauris sollicitudin lectus sed nunc tempus, non feugiat elit iaculis. Donec mattis odio vel eros volutpat, vitae blandit nunc elementum. Nulla enim odio, iaculis sollicitudin lorem a, maximus tincidunt lorem. Donec tempor, elit at porta sodales, nunc nulla blandit turpis, at dapibus magna enim ut purus. Integer et faucibus metus. Duis nunc dui, vulputate id leo in, sollicitudin imperdiet odio. Praesent ac congue massa, ut mattis sem. Nunc a consectetur diam, id tristique dolor.</p>
+            </div>
+          </div>
+          <!-- ENTRY END -->
 
-#credit{
-    font-size: 11px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+          <!-- ENTRY START -->
+          <!-- ICON -->
+          <img class="icon" src="https://hudson.is-a.dev/imgs/corne_keyboard_nord.png">
 
-</style>
+          <div class="text">
+            <div class="textborder">
+              <!-- ENTRY HEADER -->
+              <h2 class="subheaders">Corne Keyboard Layout</h2>
+              <p class="date">5/28/2022</p>
+              <!-- ENTRY TEXT -->
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lorem enim, vel pretium urna vehicula eu. Curabitur pharetra tellus id nunc rutrum condimentum. Donec non erat eget purus consectetur semper quis ut turpis. Curabitur nulla justo, gravida vehicula finibus in, ornare et nunc. Praesent eleifend neque nunc, fringilla fringilla tellus molestie vel. Curabitur arcu massa, pulvinar ut hendrerit eu, tincidunt ac lacus. Sed ut semper magna. Suspendisse facilisis leo sit amet erat pulvinar, vitae bibendum augue tempus. Donec aliquet maximus libero, vel fermentum quam maximus in. Quisque mi leo, bibendum eu libero sed, pharetra auctor sem. Donec tempus justo venenatis dui semper finibus. Donec vestibulum felis non tortor facilisis, at fringilla dolor scelerisque. Quisque eros eros, rutrum et tempus at, condimentum ac nulla.</p>
 
-</head>
+              <p>Nullam ut dictum urna, id accumsan elit. Maecenas vitae vestibulum elit. Nam dui massa, convallis sit amet ligula vel, convallis feugiat felis. Mauris sollicitudin lectus sed nunc tempus, non feugiat elit iaculis. Donec mattis odio vel eros volutpat, vitae blandit nunc elementum. Nulla enim odio, iaculis sollicitudin lorem a, maximus tincidunt lorem. Donec tempor, elit at porta sodales, nunc nulla blandit turpis, at dapibus magna enim ut purus. Integer et faucibus metus. Duis nunc dui, vulputate id leo in, sollicitudin imperdiet odio. Praesent ac congue massa, ut mattis sem. Nunc a consectetur diam, id tristique dolor.</p>
+            </div>
+          </div>
+          <!-- ENTRY END -->
+        </div>
+      </div>
+    </div>
 
-<body>
-
-<div id="all">
-<div id="header">
-    <h1 id="title">Blog - Hudson Liu</h1>
-</div>
-<div id="navbox">
-    <ul>
-        <li><a href="https://hudson.is-a.dev/">home</a></li>
-        <li><a href="https://hudson.is-a.dev/src/about.html">about</a></li>
-        <li><a href="https://github.com/Hudson-Liu/Dotfiles">dotfiles</a></li>
-        <li><a href="https://hudson.is-a.dev/src/about.html">wiki</a></li>
-    </ul>
-</div>
-
-<div id="main">
-
-<div class="post">
-
-<!-- ENTRY START -->
-<!-- ICON -->
-<img class="icon" src="https://hudson.is-a.dev/imgs/arch_nord.png">
-
-<div class="text">
-<div class="textborder">
-<!-- ENTRY HEADER -->
-<h2 class="subheaders">Installing Arch from Scratch</h2> 
-<p class="date">5/28/2022</p>
-<!-- ENTRY TEXT -->
-<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lorem enim, vel pretium urna vehicula eu. Curabitur pharetra tellus id nunc rutrum condimentum. Donec non erat eget purus consectetur semper quis ut turpis. Curabitur nulla justo, gravida vehicula finibus in, ornare et nunc. Praesent eleifend neque nunc, fringilla fringilla tellus molestie vel. Curabitur arcu massa, pulvinar ut hendrerit eu, tincidunt ac lacus. Sed ut semper magna. Suspendisse facilisis leo sit amet erat pulvinar, vitae bibendum augue tempus. Donec aliquet maximus libero, vel fermentum quam maximus in. Quisque mi leo, bibendum eu libero sed, pharetra auctor sem. Donec tempus justo venenatis dui semper finibus. Donec vestibulum felis non tortor facilisis, at fringilla dolor scelerisque. Quisque eros eros, rutrum et tempus at, condimentum ac nulla.</p>
-
-<p>Nullam ut dictum urna, id accumsan elit. Maecenas vitae vestibulum elit. Nam dui massa, convallis sit amet ligula vel, convallis feugiat felis. Mauris sollicitudin lectus sed nunc tempus, non feugiat elit iaculis. Donec mattis odio vel eros volutpat, vitae blandit nunc elementum. Nulla enim odio, iaculis sollicitudin lorem a, maximus tincidunt lorem. Donec tempor, elit at porta sodales, nunc nulla blandit turpis, at dapibus magna enim ut purus. Integer et faucibus metus. Duis nunc dui, vulputate id leo in, sollicitudin imperdiet odio. Praesent ac congue massa, ut mattis sem. Nunc a consectetur diam, id tristique dolor.</p>
-</div>
-</div>
-<!-- ENTRY END -->
-
-<!-- ENTRY START -->
-<!-- ICON -->
-<img class="icon" src="https://hudson.is-a.dev/imgs/corne_keyboard_nord.png">
-
-<div class="text">
-<div class="textborder">
-<!-- ENTRY HEADER -->
-<h2 class="subheaders">Corne Keyboard Layout</h2>
-<p class="date">5/28/2022</p>
-<!-- ENTRY TEXT -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lorem enim, vel pretium urna vehicula eu. Curabitur pharetra tellus id nunc rutrum condimentum. Donec non erat eget purus consectetur semper quis ut turpis. Curabitur nulla justo, gravida vehicula finibus in, ornare et nunc. Praesent eleifend neque nunc, fringilla fringilla tellus molestie vel. Curabitur arcu massa, pulvinar ut hendrerit eu, tincidunt ac lacus. Sed ut semper magna. Suspendisse facilisis leo sit amet erat pulvinar, vitae bibendum augue tempus. Donec aliquet maximus libero, vel fermentum quam maximus in. Quisque mi leo, bibendum eu libero sed, pharetra auctor sem. Donec tempus justo venenatis dui semper finibus. Donec vestibulum felis non tortor facilisis, at fringilla dolor scelerisque. Quisque eros eros, rutrum et tempus at, condimentum ac nulla.</p>
-
-<p>Nullam ut dictum urna, id accumsan elit. Maecenas vitae vestibulum elit. Nam dui massa, convallis sit amet ligula vel, convallis feugiat felis. Mauris sollicitudin lectus sed nunc tempus, non feugiat elit iaculis. Donec mattis odio vel eros volutpat, vitae blandit nunc elementum. Nulla enim odio, iaculis sollicitudin lorem a, maximus tincidunt lorem. Donec tempor, elit at porta sodales, nunc nulla blandit turpis, at dapibus magna enim ut purus. Integer et faucibus metus. Duis nunc dui, vulputate id leo in, sollicitudin imperdiet odio. Praesent ac congue massa, ut mattis sem. Nunc a consectetur diam, id tristique dolor.</p>
-</div>
-</div>
-<!-- ENTRY END -->
-
-
-</div>
-</div>
-
-
-</div>
-
-<div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
-
-</body>
-
+    <div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
+  </body>
 </html>
