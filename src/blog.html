@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>theme 38</title>
+    <title>Hudson - Blog</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +21,6 @@
         width: 60%;
         margin: 0 auto;
       }
-
-      /* Removed header styles */
       
       /* Navbar styling */
       #navbox {
@@ -91,6 +89,28 @@
         font-size: 20px;
       }
 
+      #site-header {
+        text-align: center;
+        color: #81a1c1;
+        font-size: 1em;
+        font-weight: bold;
+        border-bottom: 1px solid #81a1c1;
+        margin-bottom: 0.25em;
+      }
+      h1 {
+          margin-bottom: -0.3em;
+      }
+
+      h2 {
+        color: #88c0d0;
+      }
+
+      .subtitle {
+        color: #eceff4;
+        font-weight: normal;
+        font-size: 1em;
+      }
+
       .date {
         margin: 0;
         font-size: 15px;
@@ -129,6 +149,11 @@
   <body>
     <div id="all">
       <!-- Top section now only contains the navbar -->
+
+        <header id="site-header">
+                <h1> &gt; my.blog [~]: </h1>
+                <h3 class="subtitle">__author__ = "Hudson Liu"</h2>
+        </header>
       <div id="navbox">
         <ul>
           <li><a href="https://hudson.is-a.dev/">home</a></li>
