@@ -9,5 +9,23 @@
 
 A simple static HTML personal webpage for showcasing my personal projects. The `is-a.dev` domain name is from the [is-a dev community project](https://is-a.dev/).
 
+The template for an entry is:
+```html
+<!-- ENTRY START -->
+<!-- ICON -->
+<img class="icon" src="https://hudson.is-a.dev/imgs/corne_keyboard_nord.png" alt="Corne Keyboard Icon">
+
+<div class="text">
+  <div class="textborder">
+    <!-- ENTRY HEADER -->
+    <h2 class="subheaders">Corne Keyboard Layout</h2>
+    <p class="date">5/28/2022</p>
+    <!-- ENTRY TEXT -->
+      <p>placeholder</p>
+  </div>
+</div>
+<!-- ENTRY END -->
+```
+
 ## Credits
 Thanks to [Repth](https://repth.neocities.org/theme) for providing this website's template and layout.

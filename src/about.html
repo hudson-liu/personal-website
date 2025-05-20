@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hudson - Blog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Base Styles */
+    body {
+      background-color: #2e3440;
+      margin-bottom: 2%;
+      color: #eceff4;
+      font-family: 'Fira Code', monospace;
+      line-height: 1.6;
+    }
+
+    #all {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    /* Navbar styling */
+    #navbox {
+      /* margin: 20px 0;*/
+      width: 100%;
+      background-color: #2e3440
+    }
+
+    #navbox ul {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      /* border: 1px solid #81a1c1;*/
+    }
+
+    #navbox li {
+      list-style-type: none;
+      display: inline;
+      font-size: 19px;
+      margin: 10px;
+    }
+
+    a {
+      color: #81a1c1;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #81a1c1;
+    }
+
+    a:hover {
+      font-weight: bold;
+      text-decoration-line: underline
+    }
+
+    a:active {
+      font-weight: normal;
+    }
+
+    .main,
+    .post {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .text {
+      width: 100%;
+      padding: 25px;
+      border: 1px solid #81a1c1;
+      margin-bottom: 20px;
+      background-color: #434c5e;
+      box-sizing: border-box;
+    }
+
+    .textborder {
+      background-color: #4c566a;
+      border: 1px dashed #eceff4;
+      padding: 20px;
+      font-size: 15px;
+    }
+
+    .subheaders {
+      margin: 0;
+      font-weight: normal;
+      font-size: 20px;
+    }
+
+    #site-header {
+      text-align: center;
+      color: #81a1c1;
+      font-size: 1em;
+      font-weight: bold;
+      /*border-bottom: 1px solid #81a1c1;*/
+      margin-bottom: 0.25em;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: -0.2em;
+    }
+
+    h2 {
+      color: #88c0d0;
+    }
+
+    .subtitle {
+      color: #eceff4;
+      font-weight: normal;
+      font-size: 1em;
+      margin-bottom: -0.2em;
+    }
+
+    .date {
+      margin: 0;
+      font-size: 15px;
+      color: #8fbcbb;
+    }
+
+    /* Updated icon styling */
+    .icon {
+      float: right;
+      margin: 15px;
+      width: 100px;
+      border-radius: 15px;
+      border: 2px solid #81a1c1;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .icon:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h3 {
+      color: #a3be8c;
+    }
+
+    strong {
+      color: #ebcb8b;
+    }
+
+    em {
+      color: #81a1c1;
+    }
+
+    /* Code block styling */
+    pre {
+      background-color: #3b4252;
+      padding: 16px;
+      overflow-x: auto;
+      border-left: 4px solid #81a1c1;
+      border-radius: 8px;
+      margin: 1em 0;
+    }
+
+    pre code {
+      display: block;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.95em;
+      line-height: 1.5;
+      color: #eceff4;
+      white-space: pre;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="all">
+    <!-- Top section now only contains the navbar -->
+    <header id="site-header">
+      <h1> README.md </h1>
+      <h2 class="subtitle">__author__ = "hudson liu"</h2>
+    </header>
+    <div id="navbox">
+      <ul>
+        <li><a href="https://hudson.is-a.dev/">home</a></li>
+        <li><a href="https://hudson.is-a.dev/src/about.html">about</a></li>
+        <li><a href="https://github.com/Hudson-Liu/Dotfiles">dotfiles</a></li>
+        <li><a href="https://hudson.is-a.dev/src/about.html">wiki</a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <div class="post">
+        <img class="icon" src="https://hudson.is-a.dev/imgs/corne_keyboard_nord.png" alt="Corne Keyboard Icon">
+        <div class="text">
+          <div class="textborder">
+            <p class="date">last updated: 5/28/2025</p>
+
+            <p> if youre reading this, you probably already know the basic stuff about me, but just in case: im hudson
+              liu, im a major caffeine addict, and im currently studying math & cs at caltech (class of '29!!!). </p>
+
+            <p> in terms of my interests—i definitely have a special appreciation for the theoreticals. my own
+              independent research largely tends to focus on the more abstract, less “applied” branches of various
+              fields (namely, machine learning). outside of that, im quite interested in linux and other open-source
+              projects. </p>
+
+            <p> i also really like listening to music. im not that much of an audiophile, but i love collecting retro
+              mediums (cassettes, minidisc, ipod) in my free time. my favorite genres are city pop, jazz fusion,
+              anything experimental, and some bits of 90s rap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

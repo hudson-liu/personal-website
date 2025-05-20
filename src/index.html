@@ -1,211 +1,213 @@
 <!DOCTYPE html>
 <link rel="icon" type="image/png" href="favicon.png?">
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hudson - Personal Portfolio</title>
-        <meta name="description" content="ML Research, Math + CS Major; open source contributor.">
-        <meta name="keywords" content="Hudson Liu, machine learning, computer science, math">
-        <meta name="author" content="Hudson Liu">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
- 
-<style>
- 
-body{
-    background-color: #2e3440;
-    color: #eceff4;
-}
- 
-#all{
-    width: 560px;
-    height: 600px;
-    position: absolute;
-    font-family: "Fira Code", monospace;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
- 
-#left{
-    width: 215px;
-    height: 600px;
-    float: left;
-}
- 
-#lefttop{
-    background-color: #ebe1dd;
-    width: 215px;
-    height: 290px;
-    margin-bottom: 20px;
-    border: 1px solid #5e81ac;
-    background-image: url('https://hudson.is-a.dev/imgs/website_nord_img.png');
-}
- 
-#leftbottom{
-    background-color: #3b4252;
-    width: 185px;
-    height: 260px;
-    padding: 15px;
-    border: 1px solid #5e81ac;
-    text-align: center;
-    overflow: hidden;
-    overflow-x: hidden;
-}
- 
-h1{
-    margin: 0px;
-    margin-bottom: -10px;
-    font-weight: normal;
-    font-size: 20px;
-    color: #88c0d0;
-}
- 
-#leftbottom ul, li{
-    list-style-type: none;
-    padding: 0px;
-    letter-spacing: 1px;
-}
- 
-a{
-    text-decoration: none;
-    color: #eceff4;
-}
- 
-a:hover{
-    color: #8fbcbb;
-}
- 
-#right{
-    float: right;
-    width: 325px;
-    height: 600px;
-}
- 
-#righttop{
-    background-color: #3b4252;
-    width: 295px;
-    height: 325px;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #5e81ac;
-    text-align: center;
-    overflow: scroll;
-    overflow-x: hidden;
-    font-size: 13px;
-    letter-spacing: 1px;
-}
- 
-.content2{
-    text-align: left;
-}
- 
-#rightbottom{
-    background-color: #3b4252;
-    width: 295px;
-    height: 195px;
-    padding: 15px;
-    border: 1px solid #5e81ac;
-    text-align: center;
-    overflow: scroll;
-    overflow-x: hidden;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
- 
-::-webkit-scrollbar{
-    width: 8px; 
-}
- 
-::-webkit-scrollbar-track{
-background-color: transparent;
-}
- 
-::-webkit-scrollbar-thumb{
-background-color: #4c566a;  
-}
- 
-#credit{
-font-size: 13px;
-position: fixed;
-bottom: 0;
-right: 0;
-}
- 
-#credit a{
-color: #c7acab;
-}
- 
-#credit a:hover{
-color: #614140;
-}
- 
-</style>
- 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hudson - Personal Portfolio</title>
+  <meta name="description" content="ML Research, Math + CS Major; open source contributor.">
+  <meta name="keywords" content="Hudson Liu, machine learning, computer science, math">
+  <meta name="author" content="Hudson Liu">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #2e3440;
+      color: #eceff4;
+    }
+
+    #all {
+      width: 560px;
+      height: 600px;
+      position: absolute;
+      font-family: "Fira Code", monospace;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    #left {
+      width: 215px;
+      height: 600px;
+      float: left;
+    }
+
+    #lefttop {
+      background-color: #ebe1dd;
+      width: 215px;
+      height: 290px;
+      margin-bottom: 20px;
+      border: 1px solid #5e81ac;
+      background-image: url('https://hudson.is-a.dev/imgs/website_nord_img.png');
+    }
+
+    #leftbottom {
+      background-color: #3b4252;
+      width: 185px;
+      height: 260px;
+      padding: 15px;
+      border: 1px solid #5e81ac;
+      text-align: center;
+      overflow: hidden;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      margin: 0px;
+      margin-bottom: -10px;
+      font-weight: normal;
+      font-size: 20px;
+      color: #88c0d0;
+    }
+
+    #leftbottom ul,
+    li {
+      list-style-type: none;
+      padding: 0px;
+      letter-spacing: 1px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #eceff4;
+    }
+
+    a:hover {
+      color: #8fbcbb;
+    }
+
+    #right {
+      float: right;
+      width: 325px;
+      height: 600px;
+    }
+
+    #righttop {
+      background-color: #3b4252;
+      width: 295px;
+      height: 325px;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #5e81ac;
+      text-align: center;
+      overflow: scroll;
+      overflow-x: hidden;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    .content2 {
+      text-align: left;
+    }
+
+    #rightbottom {
+      background-color: #3b4252;
+      width: 295px;
+      height: 195px;
+      padding: 15px;
+      border: 1px solid #5e81ac;
+      text-align: center;
+      overflow: scroll;
+      overflow-x: hidden;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #4c566a;
+    }
+
+    #credit {
+      font-size: 13px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+
+    #credit a {
+      color: #c7acab;
+    }
+
+    #credit a:hover {
+      color: #614140;
+    }
+  </style>
+
 </head>
- 
+
 <body>
- 
-<div id="all">
- 
-<div id="left">
-    <div id="lefttop">
-    </div>
-    <div id="leftbottom"> 
+
+  <div id="all">
+
+    <div id="left">
+      <div id="lefttop">
+      </div>
+      <div id="leftbottom">
         <h1>> navigate&nbsp;&nbsp;</h1>
-            <ul>
-                <li><a href="https://hudson.is-a.dev/about.html">about</a></li>
-                <li><a href="https://github.com/Hudson-Liu/Dotfiles">dotfiles</a></li>
-                <li><a href="https://hudson.is-a.dev/resume.html">resume</a></li>
-                <li><a href="https://hudson.is-a.dev/blog.html">blog</a></li>
-            </ul>
+        <ul>
+          <li><a href="https://hudson.is-a.dev/about.html">about</a></li>
+          <li><a href="https://hudson.is-a.dev/resume.html">resume</a></li>
+        </ul>
         <h1>> socials&nbsp;&nbsp;</h1>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/hudsonliu/">linkedin</a></li>
-                <li><a href="https://discord.com/users/879464844103934014">discord</a></li>
-                <li><a href="https://github.com/Hudson-Liu">github</a></li>
-                <li><a href="https://open.spotify.com/user/gp7nllrydxulmq3ffjci87nod">spotify</a></li>
-            </ul>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/hudsonliu/">linkedin</a></li>
+          <li><a href="https://discord.com/users/879464844103934014">discord</a></li>
+          <li><a href="https://github.com/Hudson-Liu">github</a></li>
+          <li><a href="https://open.spotify.com/user/gp7nllrydxulmq3ffjci87nod">spotify</a></li>
+        </ul>
+      </div>
+
     </div>
- 
-</div>
- 
-<div id="right">
-    <div id="righttop">
+
+    <div id="right">
+      <div id="righttop">
         <h1>> projects</h1>
         <div class="content2">
-            <p><b>MISST</b>: Deep Neural Networks + Murine Polysomnography.</p>
+          <p><b>MISST</b>: Deep Neural Networks + Murine Polysomnography.</p>
 
-            <p><b>Diff-PFM</b>: Diffusion models for predicting microstructure evolution during solidification processes of Laser Powder Bed Fusion.</p>
+          <p><b>Diff-PFM</b>: Diffusion models for predicting microstructure evolution during solidification processes
+            of Laser Powder Bed Fusion.</p>
 
-            <p><b>Kibo-RPC 2023</b>: Team member of Kibo Robot Programming Challenge. Created a 3D model of the ISS field with Fusion 360. Represented the US on the international stage.</p>
+          <p><b>Kibo-RPC 2023</b>: Team member of Kibo Robot Programming Challenge. Created a 3D model of the ISS field
+            with Fusion 360. Represented the US on the international stage.</p>
 
-            <p><b>Kibo-RPC 2022</b>: Team leader of Kibo Robot Programming Challenge. Developed a 3D A* path optimization algorithm.</p>
+          <p><b>Kibo-RPC 2022</b>: Team leader of Kibo Robot Programming Challenge. Developed a 3D A* path optimization
+            algorithm.</p>
 
-            <p><b>NASA ADC</b>: Participated in the 2022 NASA App Development Challenge.</p>
+          <p><b>NASA ADC</b>: Participated in the 2022 NASA App Development Challenge.</p>
 
-            <p><b>RCM Layer</b>: An alternative to the "densely-connected" layer.</p>
+          <p><b>RCM Layer</b>: An alternative to the "densely-connected" layer.</p>
 
-            <p><b>++C Esolang</b>: A (very) barebones esolang based on post-fix notation, written in C++.</p>
+          <p><b>++C Esolang</b>: A (very) barebones esolang based on post-fix notation, written in C++.</p>
 
-            <p><b>Fleat</b>: A neural network for predicting optimal learning rates.</p>
+          <p><b>Fleat</b>: A neural network for predicting optimal learning rates.</p>
         </div>
-    </div>
+      </div>
 
-    <div id="rightbottom">
+      <div id="rightbottom">
         <h1>> about me</h1>
         <div class="content">
-            <p>a high school kid who's mildly obsessed with machine learning. i spend most of my time on random side projects, though i occasionally decide to do something useful.</p>
+          <p>a high school kid who's mildly obsessed with machine learning. i spend most of my time on random side
+            projects, though i occasionally decide to do something useful.</p>
         </div>
+      </div>
+
     </div>
- 
-</div>
- 
-</div>
- 
-<div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
- 
+
+  </div>
+
+  <div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
+
 </body>
- 
+
 </html>
